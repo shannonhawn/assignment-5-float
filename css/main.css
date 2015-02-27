@@ -1,0 +1,19 @@
+html {
+  background-color: white;
+}
+
+h1{
+  font-weight:bold;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-family: "Merriweather", normal;
+  line-height: 1.5;
+  color:#b32f52;
+  margin:0em;
+}
+
+header{
+  text-align: center;
+  background-color: #cd5b34;
+  margin: 0em;
+}
