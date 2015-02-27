@@ -8,7 +8,7 @@ h1{
   font-style: normal;
   font-family: "Merriweather", normal;
   line-height: 1.5;
-  color:#b32f52;
+  color:white;
   margin:0em;
 }
 
@@ -16,4 +16,32 @@ header{
   text-align: center;
   background-color: #cd5b34;
   margin: 0em;
+}
+
+nav ul{
+  list-style-type: none;
+}
+
+nav{
+  background-color:#cd5b34;
+  text-align: center;
+  padding:.5em .5em 0.5em 0em;
+}
+
+nav li{
+  display:inline-block;
+}
+
+nav a:hover{
+  background-color:#b32f52;
+  color:white;
+}
+
+nav a{
+  display: inline-block;
+  padding: 0.5em .75em;
+  background-color:#b2a215 ;
+  color:#fff;
+  text-decoration: none;
+  border-radius: 4px;
 }
