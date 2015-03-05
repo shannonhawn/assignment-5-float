@@ -18,18 +18,37 @@ header{
   margin: 0em;
 }
 
+h2{
+  text-align: center;
+  background-color:#cd5b34;
+  margin: 0em;
+  color:white;
+  padding:.5em .5em 0.5em 0em;
+}
+
+figcaption{
+  font-style: italic;
+  color:white;
+  text-align:center;
+  background-color:#cd5b34;
+}
+
 nav ul{
   list-style-type: none;
 }
+
 
 nav{
   background-color:#cd5b34;
   text-align: center;
   padding:.5em .5em 0.5em 0em;
+  border-radius:1px;
+  border-color:;
 }
 
 nav li{
   display:inline-block;
+  background-color:#cd5b34;
 }
 
 nav a:hover{
@@ -40,8 +59,28 @@ nav a:hover{
 nav a{
   display: inline-block;
   padding: 0.5em .75em;
-  background-color:#b2a215 ;
+  background-color:#cd5b34;
   color:#fff;
   text-decoration: none;
   border-radius: 4px;
+}
+
+footer {
+  background-color:#cd5b34;
+  padding: .5em;
+  text-align: center;
+}
+
+.clear-it {
+  clear:left;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.inset {
+  float:left;
+  width: 22%;
+  margin-right: 15px;
 }
