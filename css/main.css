@@ -80,7 +80,7 @@ footer {
 }
 
 .clear-it {
-  clear:left;
+  clear:right;
 }
 
 *, *::before, *::after {
