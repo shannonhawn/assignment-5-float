@@ -26,6 +26,14 @@ h2{
   padding:.5em .5em 0.5em 0em;
 }
 
+h3{
+  text-align: center;
+  background-color:#cd5b34;
+  margin: 0em;
+  color:white;
+  padding:.5em .5em 0.5em 0em;
+}
+
 figcaption{
   font-style: italic;
   color:white;
