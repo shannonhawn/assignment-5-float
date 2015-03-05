@@ -1,5 +1,6 @@
 html {
   background-color: white;
+    box-sizing: border-box;
 }
 
 h1{
@@ -18,13 +19,14 @@ header{
   margin: 0em;
 }
 
-h2{
+h2 {
+  background-color: #d98156;
+  color: white;
   text-align: center;
-  background-color:#cd5b34;
-  margin: 0em;
-  color:white;
-  padding:.5em .5em 0.5em 0em;
-  width:100%;
+  font-size: 16px;
+  padding: 1em;
+  margin: 0;
+  clear: both;
 }
 
 h3{
@@ -37,7 +39,7 @@ h3{
 
 figcaption{
   font-style: italic;
-  color:white;
+  color:black;
   text-align:center;
   background-color:#cd5b34;
 }
@@ -52,7 +54,7 @@ nav{
   text-align: center;
   padding:.5em .5em 0.5em 0em;
   border-radius:1px;
-  border-color:;
+  border-color;
 }
 
 nav li{
@@ -80,14 +82,6 @@ footer {
   text-align: center;
 }
 
-.clear-it {
-  clear:right;
-}
-
-*, *::before, *::after {
-  box-sizing: inherit;
-}
-
 .inset {
   float:left;
   width: 22%;
@@ -96,6 +90,12 @@ footer {
 
 .inset-2 {
   float:right;
+  clear:right;
   width: 22%;
   margin-right: 15px;
+}
+
+ul{
+  text-align:right;
+  font-style:italic;
 }
