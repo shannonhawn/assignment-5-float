@@ -181,7 +181,7 @@ figcaption{
   font-style: italic;
   color:black;
   text-align:center;
-  background-color:#cd5b34;
+  background-color:#d98156;
 }
 
 
@@ -192,4 +192,5 @@ footer {
   background-color: #cd5b34;
   padding: 1em;
   text-align: center;
+  color:white;
 }
