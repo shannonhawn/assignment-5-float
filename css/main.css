@@ -95,7 +95,8 @@ color: #a4403b;
 .nav1{
   float: left;
   width: 33%;
-  font-style:none;
+  font-style:normal;
+  list-style-type:normal;
 }
 
 .nav2{
@@ -103,13 +104,15 @@ color: #a4403b;
   width: 33%;
   border-left: 1px solid #a4403b;
   border-right: 1px solid #a4403b;
-  font-style:none;
+  font-style:normal;
+  list-style-type:normal;
 }
 
 .nav3{
   float: left;
   width: 33%;
-  font-style:none;
+  font-style:normal;
+  list-style-type:normal;
 }
 
 .p1{
