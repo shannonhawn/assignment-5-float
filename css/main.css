@@ -71,6 +71,15 @@ color: #a4403b;
   clear:right;
 }
 
+.inset {
+  float:left;
+  clear:left;
+  width: 35%;
+  margin-right: 15px;
+  margin:1em 1em 1em 1em;
+  border: 1px solid lightgrey;
+}
+
 body {
   font-family: "Merriweather";
   margin: 0;
