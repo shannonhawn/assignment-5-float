@@ -34,6 +34,7 @@ h1{
     text-align: center;
     padding: 0.5em;
     margin:0em;
+    box-sizing: border-box;
 }
 
 h2{
@@ -46,22 +47,23 @@ h2{
   clear: both;
 }
 
-h3{
+h3 {
+  background-color: #d98156;
+  color: white;
+  text-align: center;
+  font-size: 10px;
+  font-style: italic;
+  margin: 0;
+  padding: 0.25em 0 0.25em 0;
+}
+
+h4 {
   text-align: center;
   font-size: 16px;
   font-weight: 900;
   padding: 0;
   line-height: 1;
   clear: both;
-}
-
-figcaption{
-  background-color:#d98156;
-  color: white;
-  text-align: center;
-  font-size: 10px;
-  padding: 1em;
-  margin: 0;
 }
 
 .grain-left {
