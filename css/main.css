@@ -19,15 +19,6 @@ header{
   margin: 0em;
 }
 
-h2 {
-  background-color: #d98156;
-  color: white;
-  text-align: center;
-  font-size: 16px;
-  padding: 1em;
-  margin: 0;
-  clear: both;
-}
 
 h3{
   text-align: center;
@@ -95,7 +86,44 @@ footer {
   margin-right: 15px;
 }
 
+.inset-2{
+  float: right;
+  width: 40%;
+  margin-left: 15px;
+  margin: 0.5em;
+  border: 1px solid lightgrey;
+}
+
 ul{
   text-align:right;
   font-style:italic;
+}
+
+
+.left-grain {
+  float: left;
+  width: 5%;
+  padding: 0.5em 0 0 0;
+}
+
+.right-grain {
+  float: right;
+  width: 5%;
+  padding: 0.5em 0 0 0;
+}
+
+.cereals {
+  float: right;
+  width: 40%;
+  margin-left: 15px;
+  margin: 0.5em;
+  border: 1px solid lightgrey;
+}
+
+.quinoa {
+  clear: both;
+  float: right;
+  width: 40%;
+  margin: 0.5em;
+  border: 1px solid lightgrey;
 }
