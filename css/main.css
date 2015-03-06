@@ -95,6 +95,7 @@ color: #a4403b;
 .nav1{
   float: left;
   width: 33%;
+  font-style:none;
 }
 
 .nav2{
@@ -102,11 +103,13 @@ color: #a4403b;
   width: 33%;
   border-left: 1px solid #a4403b;
   border-right: 1px solid #a4403b;
+  font-style:none;
 }
 
 .nav3{
   float: left;
   width: 33%;
+  font-style:none;
 }
 
 .p1{
@@ -157,7 +160,7 @@ color: #a4403b;
   width: 50%;
 }
 
-.legumes{
+.legume{
   clear: left;
   float:left;
   width: 20%;
@@ -165,7 +168,7 @@ color: #a4403b;
   margin: 0.5em 0 0.5em 0.5em ;
 }
 
-.legumes-text{
+.legume-text{
   float: right;
   width: 75%;
   font-style: italic;
