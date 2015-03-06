@@ -1,104 +1,27 @@
-html {
-  background-color: white;
+html{
     box-sizing: border-box;
 }
 
-h1{
-  font-weight:bold;
-  font-size: 2.5rem;
-  font-style: normal;
-  font-family: "Merriweather", normal;
-  line-height: 1.5;
-  color:white;
-  margin:0em;
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 header{
+  padding:0;
   text-align: center;
   background-color: #cd5b34;
-  margin: 0em;
-}
-
-
-h3{
-  text-align: center;
-  background-color:#cd5b34;
-  margin: 0em;
   color:white;
-  padding:.5em .5em 0.5em 0em;
+  overflow:hidden;
 }
 
-figcaption{
-  font-style: italic;
-  color:black;
-  text-align:center;
-  background-color:#cd5b34;
+h1{
+    width:80%;
+    float: left;
+    text-align: center;
+    padding: 0.5em;
+    box-sizing: border-box;
+    margin:0em;
 }
-
-nav ul{
-  list-style-type: none;
-}
-
-
-nav{
-  background-color:#cd5b34;
-  text-align: center;
-  padding:.5em .5em 0.5em 0em;
-  border-radius:1px;
-  border-color;
-}
-
-nav li{
-  display:inline-block;
-  background-color:#cd5b34;
-}
-
-nav a:hover{
-  background-color:#cd5b34;
-  color:white;
-}
-
-nav a{
-  display: inline-block;
-  padding: 0.5em .75em;
-  background-color:#cd5b34;
-  color:#fff;
-  text-decoration: none;
-  border-radius: 4px;
-}
-
-footer {
-  background-color:#cd5b34;
-  padding: .5em;
-  text-align: center;
-}
-
-.inset {
-  float:left;
-  width: 22%;
-  margin-right: 15px;
-}
-
-.inset-2 {
-  float:right;
-  clear:right;
-  width: 22%;
-  margin-right: 15px;
-}
-
-.inset-2{
-  float: right;
-  width: 40%;
-  margin-left: 15px;
-  margin: 0.5em;
-  border: 1px solid lightgrey;
-}
-
-ul{
-  text-align:right;
-  font-style:italic;
-}
-
 
 .left-grain {
   float: left;
@@ -112,6 +35,94 @@ ul{
   padding: 0.5em 0 0 0;
 }
 
+a {
+  color: white;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0.75em;
+  text-decoration: none;
+  border-top: 1px solid #a4403b;
+  border-bottom: 1px solid #a4403b;
+}
+
+a:hover {
+color: #a4403b;
+}
+
+.nav1 {
+  float: left;
+  width: 33%;
+}
+
+.nav2 {
+  float: left;
+  width: 33%;
+  border-left: 1px solid #a4403b;
+  border-right: 1px solid #a4403b;
+}
+
+.nav3 {
+  float: left;
+  width: 33%;
+}
+
+.p1{
+  clear:right;
+}
+
+body {
+  font-family: "Merriweather";
+  margin: 0;
+  line-height: 1.5em;
+  font-size: 12px;
+}
+
+
+h3{
+  text-align: center;
+  background-color:#cd5b34;
+  margin: 0em;
+  color:white;
+  padding:.25em 0em 0em 0.25em;
+  font-style:italic;
+  font-size: 10px;
+}
+
+
+figcaption{
+  font-style: italic;
+  color:black;
+  text-align:center;
+  background-color:#cd5b34;
+}
+
+
+
+
+footer {
+  clear: both;
+  font-size: 10px;
+  color: #d98156;
+  background-color: #cd5b34;
+  padding: 1em;
+  text-align: center;
+}
+
+.inset {
+  float:left;
+  width: 22%;
+  margin-right: 15px;
+}
+
+
+ul{
+  text-align:right;
+  font-style:italic;
+}
+
+
+
 .cereals {
   float: right;
   width: 40%;
@@ -120,10 +131,40 @@ ul{
   border: 1px solid lightgrey;
 }
 
-.quinoa {
+.quinoa{
   clear: both;
   float: right;
   width: 40%;
   margin: 0.5em;
   border: 1px solid lightgrey;
+}
+
+.corn {
+  width: 100%;
+}
+
+.rice {
+  float: left;
+  width: 50%;
+}
+
+.oats {
+  float: right;
+  width: 50%;
+}
+
+.legumes {
+  clear: left;
+float:left;
+  width: 20%;
+  border: 1px solid lightgrey;
+  box-sizing: border-box;
+  margin: 0.5em 0 0.5em 0.5em ;
+}
+
+.legumes-text {
+  float: right;
+  width: 75%;
+  font-style: italic;
+  box-sizing: border-box;
 }
