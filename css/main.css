@@ -14,6 +14,13 @@ header{
   overflow:hidden;
 }
 
+body {
+  font-family: "Merriweather";
+  margin: 0;
+  line-height: 1.5em;
+  font-size: 12px;
+}
+
 h1{
     width:80%;
     float: left;
@@ -80,11 +87,56 @@ color: #a4403b;
   border: 1px solid lightgrey;
 }
 
-body {
-  font-family: "Merriweather";
+.cereals {
+  float: right;
+  width: 40%;
+  margin-left: 15px;
+  margin: 0.5em;
+  border: 1px solid lightgrey;
+}
+
+.quinoa{
+  clear: both;
+  float: right;
+  width: 40%;
+  margin: 0.5em;
+  border: 1px solid lightgrey;
+}
+
+.p2 {
+  clear: left;
+  margin: 0.75em;
+}
+
+main {
+  background-color: #d98156;
+  overflow: hidden;
+  clear: both;
+}
+
+
+h2 {
+  background-color: #d98156;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  padding: 1em;
   margin: 0;
-  line-height: 1.5em;
-  font-size: 12px;
+  clear: both;
+}
+
+.corn {
+  width: 100%;
+}
+
+.rice {
+  float: left;
+  width: 50%;
+}
+
+.oats {
+  float: right;
+  width: 50%;
 }
 
 
@@ -97,6 +149,32 @@ h3{
   font-style:italic;
   font-size: 10px;
 }
+
+h4 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 900;
+  padding: 0;
+  line-height: 1;
+  clear: both;
+}
+
+.legumes {
+  clear: left;
+float:left;
+  width: 20%;
+  border: 1px solid lightgrey;
+  box-sizing: border-box;
+  margin: 0.5em 0 0.5em 0.5em ;
+}
+
+.legumes-text {
+  float: right;
+  width: 75%;
+  font-style: italic;
+  box-sizing: border-box;
+}
+
 
 
 figcaption{
@@ -118,11 +196,6 @@ footer {
   text-align: center;
 }
 
-.inset {
-  float:left;
-  width: 22%;
-  margin-right: 15px;
-}
 
 
 ul{
@@ -132,35 +205,11 @@ ul{
 
 
 
-.cereals {
-  float: right;
-  width: 40%;
-  margin-left: 15px;
-  margin: 0.5em;
-  border: 1px solid lightgrey;
-}
 
-.quinoa{
-  clear: both;
-  float: right;
-  width: 40%;
-  margin: 0.5em;
-  border: 1px solid lightgrey;
-}
 
-.corn {
-  width: 100%;
-}
 
-.rice {
-  float: left;
-  width: 50%;
-}
 
-.oats {
-  float: right;
-  width: 50%;
-}
+
 
 .legumes {
   clear: left;
