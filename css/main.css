@@ -6,7 +6,7 @@ html{
   box-sizing: inherit;
 }
 
-header{
+header {
   padding:0;
   text-align: center;
   background-color: #cd5b34;
@@ -23,7 +23,7 @@ main{
 
 body{
   font-family: "Merriweather";
-  margin: 0em;
+  margin: 0;
   line-height: 1.5em;
   font-size: 12px;
 }
@@ -33,25 +33,25 @@ h1{
     float: left;
     text-align: center;
     padding: 0.5em;
-    margin:0em;
+    margin:0;
     box-sizing: border-box;
 }
 
 h2{
   background-color: #d98156;
   color: white;
+  clear: both;
   text-align: center;
   font-size: 16px;
   padding: 1em;
   margin: 0;
-  clear: both;
 }
 
 h3 {
   background-color: #d98156;
-  color: white;
   text-align: center;
   font-size: 10px;
+  color: white;
   font-style: italic;
   margin: 0;
   padding: 0.25em 0 0.25em 0;
@@ -60,10 +60,10 @@ h3 {
 h4 {
   text-align: center;
   font-size: 16px;
-  font-weight: 900;
-  padding: 0;
   line-height: 1;
   clear: both;
+  font-weight: 900;
+  padding: 0;
 }
 
 .grain-left {
@@ -169,13 +169,14 @@ color: #a4403b;
   float: right;
   width: 75%;
   font-style: italic;
+  box-sizing:border-box;
 }
 
 footer{
-  clear: both;
-  font-size: 10px;
   color: #d98156;
   background-color: #cd5b34;
+  clear: both;
+  font-size: 10px;
   padding: 1em;
   text-align: center;
 }
